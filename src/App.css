@@ -11,8 +11,9 @@ body{
 /*  background-color:var(--main-background-color);*/
   background: url("img/background.png");
   background-size: cover;
-  font-family: 'Patrick Hand', cursive;
-  font-size: 1.1em;
+  font-family: p22-arts-and-crafts, sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 h2, p{
