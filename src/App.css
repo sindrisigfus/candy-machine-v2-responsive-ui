@@ -11,6 +11,7 @@ body{
 /*  background-color:var(--main-background-color);*/
   background: url("img/background.jpeg");
   background-size: cover;
+  background-repeat: no-repeat;
   font-family: p22-arts-and-crafts, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -24,5 +25,10 @@ h3{
 font-weight: normal;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    background: gray;
+  }
+}
 
 
