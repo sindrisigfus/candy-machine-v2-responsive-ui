@@ -654,7 +654,7 @@ const Home = (props: HomeProps) => {
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
-                                src="ticket.png"
+                                src="Tickets-BERTH.jpg"
                                 alt="Ticket"/></div>
                             <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) && isBurnToken &&
